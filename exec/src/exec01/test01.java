@@ -23,15 +23,17 @@ public class test01 {
 //		System.out.println(a + "와 " + b + "의 곱셈은 " + c + "입니다.");
 //		
 		Scanner scan = new Scanner(System.in);
-		System.out.println("두자리 정수를 하나 입력해주세요.");
 		
+		System.out.print("insert number : ");
 		int input = scan.nextInt();
-		System.out.println(input);
 		
+		System.out.print
+		("insert number : ");
 		int input2 = scan.nextInt();
-		System.out.println(input2);
-	
-		System.out.println("input + input2 = " + (input + input2) );
+		
+
+		System.out.println("input + input2 = " + (input + input2));
+
 	
 	}
 }
