@@ -15,7 +15,7 @@ public class test01 {
 		 * 3. 결과 출력 하기 : print
 		 */
 //		int a = 2;
-		int b = 5;
+//		int b = 5;
 //		int c = a * b;
 		 
 //		System.out.printf("%d와 %d의 곱셈은 %d입니다. %n", a, b, c);
@@ -26,13 +26,12 @@ public class test01 {
 		System.out.println("두자리 정수를 하나 입력해주세요.");
 		
 		int input = scan.nextInt();
+		System.out.println(input);
+		
 		int input2 = scan.nextInt();
-		
-		int num = input;
-		int num2 = input2;
-		
-		System.out.println("입력 내용 : " + input);
-		System.out.println("num + num2 = " + num + num2);
+		System.out.println(input2);
+	
+		System.out.println("input + input2 = " + (input + input2) );
 	
 	}
 }
